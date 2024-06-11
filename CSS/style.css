@@ -1,0 +1,96 @@
+html {
+  background: linear-gradient(to bottom,rgb(1, 22, 40), rgb(4, 26, 106) );
+  overflow: scroll;
+}
+
+body {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#sun {
+  background-color: gold;
+  opacity: 0.7;
+  width: 600px;
+  height: 550px;
+  border-radius: 50%;
+  transform: translateX(-900px);
+  box-shadow: 0 0 50px gold;
+  top: 0;
+  cursor: help;
+}
+#sun .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: navy;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 10%;
+  right: 5%;
+  margin-left: -60px;
+}
+
+#sun:hover .tooltip-text {
+  visibility: visible;
+}
+.paragraph , h1 {
+  color:  white;
+  font-style: italic;
+  font-family:  'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.earth-container {
+  position: relative;
+  height: 500px;
+  width: 500px;
+}
+.earth {
+  position: absolute;
+  width: 65px; 
+  height: 65px; 
+  background: radial-gradient(circle, #90b6ea, #09315c);
+  border-radius: 50%;
+  top: 54%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+}
+.earth-par {
+  color: white;
+  font-style: italic;
+  position: absolute;
+  top: 5px;
+  left: 13px;
+}
+.circle {
+  border: 1px dotted white;
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.5;
+  top: 10%;
+  right: 3%;
+  width: 450px;
+  height: 430px;
+}
+#date-input {
+  background-color: white;
+  padding: 4px  8px;
+  border: none;
+  font-size: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease, border-color 1s ease;
+}
+#date-input:hover {
+  background-color: rgb(240, 240, 251);
+  box-shadow: 0 0 5px #99ccff;
+  border-color: black;
+}
+
+
+

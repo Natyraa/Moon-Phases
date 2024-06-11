@@ -1,0 +1,80 @@
+.moon-phase {
+  position: absolute;
+  width: 35px; 
+  height: 35px; 
+  background-color: none; 
+  border-radius: 50%;
+  transition: all 1.3s ;
+}
+
+.new-moon {
+  top: 51%;
+  left: 3.5%;
+  background-color: rgba(0 , 0 , 0 , 0.7) ;
+  opacity: 1;
+}
+
+.waxing-crescent {
+  top: 20%;
+  left: 18%;
+  opacity: 0.8;
+  background: radial-gradient(circle at 29% 55%, rgba(0 , 0 , 0 , 0.5) 55%, #f0f0f0 55%, #F5F3CE 20%);
+  box-shadow: 1px 0 1px #F5F3CE;
+}
+.first-quarter {
+  top: 7%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(to right,rgba(0 , 0 , 0 , 0.5)  50%, #F5F3CE 50%);
+  opacity: 0.9;
+  box-shadow: 1px 0px 1px #F5F3CE;
+}
+
+.waxing-gibbous {
+  top: 19%;
+  left: 80%;
+  background: radial-gradient(circle at 68% 50%,#F5F3CE 55%, #f0f0f0 55%, rgba(0 , 0 , 0 , 0.5)  20%);
+  opacity: 0.9;
+  box-shadow: 1px 0px 1px #F5F3CE;
+}
+
+.full-moon {
+  top: 52%;
+  left: 94%;
+  transform: translateY(-50%);
+  background-color: #F5F3CE;
+  opacity: 0.9;
+  box-shadow: 1px 0px 1px #F5F3CE;
+  
+}
+
+.waning-gibbous {
+  top: 82%;
+  left: 80%;
+  opacity: 0.9;
+  background: radial-gradient(circle at 29% 55%,#F5F3CE 55%, #f0f0f0 55%, rgba(0 , 0 , 0 , 0.5)  20%);
+  box-shadow: -1px 0px 1px #F5F3CE;
+}
+
+.last-quarter {
+  top: 94%;
+  left: 52%;
+  transform: translateX(-50%);
+  background: linear-gradient(to right,#F5F3CE 50%, rgba(0 , 0 , 0 , 0.5) 50%);
+  opacity: 0.9;
+  box-shadow: -1px 0px 1px #F5F3CE;
+}
+
+.waning-crescent {
+  top: 82%;
+  left: 18%;
+  background: radial-gradient(circle at 68% 50%, rgba(0 , 0 , 0 , 0.5)  55%, #f0f0f0 55%, #F5F3CE 20%);
+  opacity: 0.9;
+  box-shadow: -1px 0px 1px #F5F3CE;
+}
+
+.moon-phase-par {
+color: white;
+
+  
+}
